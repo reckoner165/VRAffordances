@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{4768D569-38A2-4307-AC02-1E020FBEB33C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_1_1;UNITY_2017_1;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_MODULAR_UNITYENGINE_ASSEMBLIES;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
+     <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />
+     <Compile Include="Assets\SteamVR\Extras\SteamVR_Teleporter.cs" />
+     <Compile Include="Assets\SteamVR\Extras\SteamVR_TestThrow.cs" />
+     <Compile Include="Assets\SteamVR\Extras\SteamVR_TestTrackedCamera.cs" />
+     <Compile Include="Assets\SteamVR\Extras\SteamVR_TrackedController.cs" />
+     <Compile Include="Assets\SteamVR\Plugins\openvr_api.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Camera.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_CameraFlip.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_CameraMask.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Controller.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_ControllerManager.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Ears.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Events.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_ExternalCamera.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Fade.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Frustum.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_GameView.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_IK.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_LoadLevel.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Menu.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Overlay.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_PlayArea.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Render.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_RenderModel.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Skybox.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_SphericalProjection.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Stats.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_TestController.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_TrackedCamera.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_TrackedObject.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_UpdatePoses.cs" />
+     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Utils.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\BaseFCRecorderSettings.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\EXR\EXRRecorder.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\EXR\EXRRecorderSettings.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\GIF\GIFRecorder.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\GIF\GIFRecorderSettings.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\MP4\MP4Recorder.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\MP4\MP4RecorderSettings.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\PNG\PNGRecorder.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\PNG\PNGRecorderSettings.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\WEBM\WEBMRecorder.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\WEBM\WEBMRecorderSettings.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Scripts\AudioRecorder.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Scripts\Encoder\AudioEncoder.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Scripts\Encoder\EncoderBase.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Scripts\Encoder\ExrEncoder.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Scripts\Encoder\fcAPI.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Scripts\Encoder\FlacEncoder.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Scripts\Encoder\GifEncoder.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Scripts\Encoder\MovieEncoder.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Scripts\Encoder\MP4Encoder.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Scripts\Encoder\OggEncoder.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Scripts\Encoder\PngEncoder.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Scripts\Encoder\WaveEncoder.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Scripts\Encoder\WebMEncoder.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Scripts\GBufferRecorder.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Scripts\Misc\Bool.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Scripts\Misc\DataPath.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Scripts\MovieRecorder.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Scripts\RecorderBase.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\BaseRenderTextureInput.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\FileNameGenerator.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\FrameRateHelper.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\FrameRecorderAttribute.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\FrameRecorderGOControler.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\GenericRecorder.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\ImageRecorderSettings.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\InputSettings.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\OutputPath.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\Recorder.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\RecorderComponent.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\RecorderInput.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\RecorderSettings.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\RecordersInventory.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\RecorderVersion.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\RecordingSession.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\Timeline\RecorderClip.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\Timeline\RecorderPlayableBehaviour.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\Timeline\RecorderTrack.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\Timeline\WaitForEndOfFrameComponent.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\UnityHelpers.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Inputs\Adam\Engine\AdamBeautyInput.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Inputs\Adam\Engine\AdamBeautyInputSettings.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Inputs\CBRenderTexture\Engine\CBRenderTextureInput.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Inputs\CBRenderTexture\Engine\CBRenderTextureInputSettings.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Inputs\CBRenderTexture\Engine\GameViewSize.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Inputs\RenderTexture\Engine\RenderTextureInput.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Inputs\RenderTexture\Engine\RenderTextureInputSettings.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Recorders\ImageRecorder\Engine\ImageRecorder.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Recorders\ImageRecorder\Engine\ImageRecorderSettings.cs" />
+     <Compile Include="Assets\Vimeo\Scripts\Auth\VimeoLogin.cs" />
+     <Compile Include="Assets\Vimeo\Scripts\Controls\PlayButton.cs" />
+     <Compile Include="Assets\Vimeo\Scripts\Fun\AdjustAspectRatio.cs" />
+     <Compile Include="Assets\Vimeo\Scripts\Fun\AmbientLighting.cs" />
+     <Compile Include="Assets\Vimeo\Scripts\Misc\RotateObject.cs" />
+     <Compile Include="Assets\Vimeo\Scripts\Misc\SpinObject.cs" />
+     <Compile Include="Assets\Vimeo\Scripts\Utils\SimpleJSON.cs" />
+     <Compile Include="Assets\Vimeo\Scripts\Utils\SkyboxPanoramicBetaShaderGUI.cs" />
+     <Compile Include="Assets\Vimeo\Scripts\Utils\TextureScale.cs" />
+     <Compile Include="Assets\Vimeo\Scripts\Utils\VimeoTicket.cs" />
+     <Compile Include="Assets\Vimeo\Scripts\Utils\VimeoUploader.cs" />
+     <Compile Include="Assets\Vimeo\Scripts\VideoController.cs" />
+     <Compile Include="Assets\Vimeo\Scripts\VimeoApi.cs" />
+     <Compile Include="Assets\Vimeo\Scripts\VimeoPlayer.cs" />
+     <Compile Include="Assets\Vimeo\Scripts\VimeoPublisher.cs" />
+     <Compile Include="Assets\Vimeo\Scripts\VR\TriggerVRControls.cs" />
+     <Compile Include="Assets\Vimeo\Scripts\VR\VimeoVR.cs" />
+     <Compile Include="Assets\Vimeo\Scripts\VR\VimeoVR_Controller.cs" />
+     <Compile Include="Assets\Vimeo\Scripts\VR\VimeoVR_PlayerControls.cs" />
+     <Compile Include="Assets\Vimeo\Scripts\VR\VimoeVR_CanvasControls.cs" />
+     <None Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\License.txt" />
+     <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
+     <None Include="Assets\SteamVR\Resources\SteamVR_ClearAll.shader" />
+     <None Include="Assets\Unity Technologies\Recorder\Framework\Inputs\CBRenderTexture\Shaders\CopyFrameBuffer.shader" />
+     <None Include="Assets\Vimeo\Shaders\Unlit-Pano360Shader.shader" />
+     <None Include="Assets\Unity Technologies\Recorder\Framework\Inputs\Adam\Shaders\BS4Normalize.shader" />
+     <None Include="Assets\Unity Technologies\Recorder\Framework\Inputs\Adam\Shaders\BS4SuperShader.shader" />
+     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Vimeo\Shaders\Unlit-InsideVisible.shader" />
+     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+     <None Include="Assets\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
+     <None Include="Assets\SteamVR\Resources\SteamVR_AlphaOut.shader" />
+     <None Include="Assets\SteamVR\readme.txt" />
+     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+     <None Include="Assets\SteamVR\Resources\SteamVR_ColorOut.shader" />
+     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+     <None Include="Assets\Vimeo\Shaders\360Equirectangular.shader" />
+     <None Include="Assets\Unity Technologies\Recorder\Framework\Inputs\Adam\Shaders\BS4Accumulate.shader" />
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{C1EBED40-5F5C-1781-A06E-F9B5923786D8}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
