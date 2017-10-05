@@ -150,6 +150,7 @@
      <Compile Include="Assets\Vimeo\Scripts\Fun\AmbientLighting.cs" />
      <Compile Include="Assets\Vimeo\Scripts\Misc\RotateObject.cs" />
      <Compile Include="Assets\Vimeo\Scripts\Misc\SpinObject.cs" />
+     <Compile Include="Assets\Vimeo\Scripts\spaceTogglePlayer.cs" />
      <Compile Include="Assets\Vimeo\Scripts\Utils\SimpleJSON.cs" />
      <Compile Include="Assets\Vimeo\Scripts\Utils\SkyboxPanoramicBetaShaderGUI.cs" />
      <Compile Include="Assets\Vimeo\Scripts\Utils\TextureScale.cs" />
