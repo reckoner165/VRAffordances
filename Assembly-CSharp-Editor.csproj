@@ -51,6 +51,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Editor\ImageEffects\BloomEditor.cs" />
+     <Compile Include="Assets\Editor\ImageEffects\TonemappingEditor.cs" />
      <Compile Include="Assets\SteamVR\Editor\SteamVR_Editor.cs" />
      <Compile Include="Assets\SteamVR\Editor\SteamVR_Preferences.cs" />
      <Compile Include="Assets\SteamVR\Editor\SteamVR_RenderModelEditor.cs" />
@@ -88,24 +90,45 @@
      <Compile Include="Assets\Unity Technologies\Recorder\Framework\Inputs\RenderTexture\Editor\RenderTextureInputSettingsEditor.cs" />
      <Compile Include="Assets\Unity Technologies\Recorder\Framework\Packager\Editor\FRPackagerPaths.cs" />
      <Compile Include="Assets\Unity Technologies\Recorder\Framework\Recorders\ImageRecorder\Editor\ImageRecorderEditor.cs" />
+     <None Include="Assets\Resources\ALSF2.txt" />
+     <None Include="Assets\Resources\ALSF1.txt" />
      <None Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\License.txt" />
      <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
      <None Include="Assets\SteamVR\Resources\SteamVR_ClearAll.shader" />
      <None Include="Assets\Unity Technologies\Recorder\Framework\Inputs\CBRenderTexture\Shaders\CopyFrameBuffer.shader" />
+     <None Include="Assets\SpriteLights\Shaders\lightFunctions.cginc" />
+     <None Include="Assets\SpriteLights\Shaders\omnidirectionalLight.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\RadialBlur.shader" />
      <None Include="Assets\Vimeo\Shaders\Unlit-Pano360Shader.shader" />
+     <None Include="Assets\SpriteLights\Shaders\papiLight.shader" />
+     <None Include="Assets\Resources\SALS.txt" />
+     <None Include="Assets\SpriteLights\Manual\changelog.txt" />
      <None Include="Assets\Unity Technologies\Recorder\Framework\Inputs\Adam\Shaders\BS4Normalize.shader" />
      <None Include="Assets\Unity Technologies\Recorder\Framework\Inputs\Adam\Shaders\BS4SuperShader.shader" />
+     <None Include="Assets\SpriteLights\Shaders\strobeLight.shader" />
+     <None Include="Assets\Resources\CALVERT1.txt" />
+     <None Include="Assets\Resources\CALVERT2.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\SpriteLights\Shaders\directionalLight.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\Resources\TDZ.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
      <None Include="Assets\Vimeo\Shaders\Unlit-InsideVisible.shader" />
+     <None Include="Assets\SpriteLights\Shaders\debugLight.shader" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
      <None Include="Assets\SteamVR\Resources\SteamVR_AlphaOut.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
      <None Include="Assets\SteamVR\readme.txt" />
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
      <None Include="Assets\SteamVR\Resources\SteamVR_ColorOut.shader" />
      <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
      <None Include="Assets\Vimeo\Shaders\360Equirectangular.shader" />
      <None Include="Assets\Unity Technologies\Recorder\Framework\Inputs\Adam\Shaders\BS4Accumulate.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
